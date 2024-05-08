@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564330312BEB59FA00AFF8B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 564330302BEB59FA00AFF8B1 /* GoogleService-Info.plist */; };
 		565C2B842BEAAB3E0095121D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C2B832BEAAB3E0095121D /* AppDelegate.swift */; };
 		565C2B862BEAAB3E0095121D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C2B852BEAAB3E0095121D /* SceneDelegate.swift */; };
 		565C2B882BEAAB3E0095121D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C2B872BEAAB3E0095121D /* ViewController.swift */; };
 		565C2B8B2BEAAB3E0095121D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565C2B892BEAAB3E0095121D /* Main.storyboard */; };
 		565C2B8D2BEAAB400095121D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565C2B8C2BEAAB400095121D /* Assets.xcassets */; };
 		565C2B902BEAAB400095121D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565C2B8E2BEAAB400095121D /* LaunchScreen.storyboard */; };
+		57F4D4104E3F27475611DA56 /* Pods_CarmatecTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C473B6F62020E0BEFF14D395 /* Pods_CarmatecTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F003221BA016B65E4F149EE /* Pods-CarmatecTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarmatecTask.debug.xcconfig"; path = "Target Support Files/Pods-CarmatecTask/Pods-CarmatecTask.debug.xcconfig"; sourceTree = "<group>"; };
+		564330302BEB59FA00AFF8B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		565C2B802BEAAB3E0095121D /* CarmatecTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarmatecTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		565C2B832BEAAB3E0095121D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		565C2B852BEAAB3E0095121D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		565C2B8C2BEAAB400095121D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		565C2B8F2BEAAB400095121D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		565C2B912BEAAB400095121D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9A2BA7FD9A89E53CEFFEA0 /* Pods-CarmatecTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarmatecTask.release.xcconfig"; path = "Target Support Files/Pods-CarmatecTask/Pods-CarmatecTask.release.xcconfig"; sourceTree = "<group>"; };
+		C473B6F62020E0BEFF14D395 /* Pods_CarmatecTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarmatecTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F4D4104E3F27475611DA56 /* Pods_CarmatecTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B60CB1EB4796FFAEDC7A510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F003221BA016B65E4F149EE /* Pods-CarmatecTask.debug.xcconfig */,
+				BD9A2BA7FD9A89E53CEFFEA0 /* Pods-CarmatecTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		565C2B772BEAAB3E0095121D = {
 			isa = PBXGroup;
 			children = (
 				565C2B822BEAAB3E0095121D /* CarmatecTask */,
 				565C2B812BEAAB3E0095121D /* Products */,
+				4B60CB1EB4796FFAEDC7A510 /* Pods */,
+				FB0D0400D88AD48287182F02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +81,17 @@
 				565C2B8C2BEAAB400095121D /* Assets.xcassets */,
 				565C2B8E2BEAAB400095121D /* LaunchScreen.storyboard */,
 				565C2B912BEAAB400095121D /* Info.plist */,
+				564330302BEB59FA00AFF8B1 /* GoogleService-Info.plist */,
 			);
 			path = CarmatecTask;
+			sourceTree = "<group>";
+		};
+		FB0D0400D88AD48287182F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C473B6F62020E0BEFF14D395 /* Pods_CarmatecTask.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 565C2B942BEAAB400095121D /* Build configuration list for PBXNativeTarget "CarmatecTask" */;
 			buildPhases = (
+				704058D66054972557761D29 /* [CP] Check Pods Manifest.lock */,
 				565C2B7C2BEAAB3E0095121D /* Sources */,
 				565C2B7D2BEAAB3E0095121D /* Frameworks */,
 				565C2B7E2BEAAB3E0095121D /* Resources */,
+				AE49093D61CA60444831B60D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				565C2B902BEAAB400095121D /* LaunchScreen.storyboard in Resources */,
+				564330312BEB59FA00AFF8B1 /* GoogleService-Info.plist in Resources */,
 				565C2B8D2BEAAB400095121D /* Assets.xcassets in Resources */,
 				565C2B8B2BEAAB3E0095121D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		704058D66054972557761D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarmatecTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE49093D61CA60444831B60D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarmatecTask/Pods-CarmatecTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarmatecTask/Pods-CarmatecTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarmatecTask/Pods-CarmatecTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		565C2B7C2BEAAB3E0095121D /* Sources */ = {
@@ -203,7 +275,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +338,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,11 +359,13 @@
 		};
 		565C2B952BEAAB400095121D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F003221BA016B65E4F149EE /* Pods-CarmatecTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8L8QX7RG6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarmatecTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +388,13 @@
 		};
 		565C2B962BEAAB400095121D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9A2BA7FD9A89E53CEFFEA0 /* Pods-CarmatecTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8L8QX7RG6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarmatecTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

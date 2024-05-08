@@ -21,5 +21,16 @@
 			</array>
 		</dict>
 	</dict>
+	<key>MBXAccessToken</key>
+	<string>sk.eyJ1IjoicmFqYTAwMDciLCJhIjoiY2xtZHcyZ3k2MWk2YTNrbzV5aGtwc3FqMyJ9.6ajB-6OJfGBONFGmJp2ZOw</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Get the user location for navigation purposes.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+	</array>
 </dict>
 </plist>
