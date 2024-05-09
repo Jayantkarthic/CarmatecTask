@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
+	<key>FirebaseAutomaticScreenReportingEnabled </key>
+	<false/>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>CFBundleURLTypes</key>
+	<array>
 		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
 			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
+				<string>com.googleusercontent.apps.952618648652-2faohcl1hg6n9kep97gd1g1brr9ha26b</string>
 			</array>
 		</dict>
-	</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.CarmatecTask</string>
+			</array>
+		</dict>
+	</array>
 	<key>MBXAccessToken</key>
 	<string>sk.eyJ1IjoicmFqYTAwMDciLCJhIjoiY2xtZHcyZ3k2MWk2YTNrbzV5aGtwc3FqMyJ9.6ajB-6OJfGBONFGmJp2ZOw</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Get the user location for navigation purposes.</string>
 	<key>UIBackgroundModes</key>

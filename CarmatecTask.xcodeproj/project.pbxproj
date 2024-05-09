@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		564330312BEB59FA00AFF8B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 564330302BEB59FA00AFF8B1 /* GoogleService-Info.plist */; };
+		564330332BEB9A7900AFF8B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564330322BEB9A7900AFF8B1 /* LoginViewController.swift */; };
+		564330362BEB9E1500AFF8B1 /* KeyboardDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564330352BEB9E1500AFF8B1 /* KeyboardDismiss.swift */; };
+		564330392BEB9E4D00AFF8B1 /* Alert Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564330382BEB9E4D00AFF8B1 /* Alert Handler.swift */; };
+		5643303D2BEBA07A00AFF8B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643303C2BEBA07A00AFF8B1 /* Constants.swift */; };
+		564330402BEBB20200AFF8B1 /* String+CLAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643303F2BEBB20200AFF8B1 /* String+CLAdditions.swift */; };
+		564330432BEBB49000AFF8B1 /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564330422BEBB49000AFF8B1 /* KeychainItem.swift */; };
 		565C2B842BEAAB3E0095121D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C2B832BEAAB3E0095121D /* AppDelegate.swift */; };
-		565C2B862BEAAB3E0095121D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C2B852BEAAB3E0095121D /* SceneDelegate.swift */; };
-		565C2B882BEAAB3E0095121D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C2B872BEAAB3E0095121D /* ViewController.swift */; };
+		565C2B882BEAAB3E0095121D /* MapboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C2B872BEAAB3E0095121D /* MapboxViewController.swift */; };
 		565C2B8B2BEAAB3E0095121D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565C2B892BEAAB3E0095121D /* Main.storyboard */; };
 		565C2B8D2BEAAB400095121D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565C2B8C2BEAAB400095121D /* Assets.xcassets */; };
 		565C2B902BEAAB400095121D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565C2B8E2BEAAB400095121D /* LaunchScreen.storyboard */; };
@@ -20,10 +25,15 @@
 /* Begin PBXFileReference section */
 		4F003221BA016B65E4F149EE /* Pods-CarmatecTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarmatecTask.debug.xcconfig"; path = "Target Support Files/Pods-CarmatecTask/Pods-CarmatecTask.debug.xcconfig"; sourceTree = "<group>"; };
 		564330302BEB59FA00AFF8B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		564330322BEB9A7900AFF8B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		564330352BEB9E1500AFF8B1 /* KeyboardDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismiss.swift; sourceTree = "<group>"; };
+		564330382BEB9E4D00AFF8B1 /* Alert Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert Handler.swift"; sourceTree = "<group>"; };
+		5643303C2BEBA07A00AFF8B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5643303F2BEBB20200AFF8B1 /* String+CLAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CLAdditions.swift"; sourceTree = "<group>"; };
+		564330422BEBB49000AFF8B1 /* KeychainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
 		565C2B802BEAAB3E0095121D /* CarmatecTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarmatecTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		565C2B832BEAAB3E0095121D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		565C2B852BEAAB3E0095121D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		565C2B872BEAAB3E0095121D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		565C2B872BEAAB3E0095121D /* MapboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxViewController.swift; sourceTree = "<group>"; };
 		565C2B8A2BEAAB3E0095121D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		565C2B8C2BEAAB400095121D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		565C2B8F2BEAAB400095121D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +63,39 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		564330342BEB9DD400AFF8B1 /* Common Files */ = {
+			isa = PBXGroup;
+			children = (
+				564330352BEB9E1500AFF8B1 /* KeyboardDismiss.swift */,
+				564330382BEB9E4D00AFF8B1 /* Alert Handler.swift */,
+			);
+			path = "Common Files";
+			sourceTree = "<group>";
+		};
+		5643303B2BEBA06700AFF8B1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5643303C2BEBA07A00AFF8B1 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5643303E2BEBB1D400AFF8B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5643303F2BEBB20200AFF8B1 /* String+CLAdditions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		564330412BEBB43B00AFF8B1 /* Keychain Credentials */ = {
+			isa = PBXGroup;
+			children = (
+				564330422BEBB49000AFF8B1 /* KeychainItem.swift */,
+			);
+			path = "Keychain Credentials";
+			sourceTree = "<group>";
+		};
 		565C2B772BEAAB3E0095121D = {
 			isa = PBXGroup;
 			children = (
@@ -75,8 +118,12 @@
 			isa = PBXGroup;
 			children = (
 				565C2B832BEAAB3E0095121D /* AppDelegate.swift */,
-				565C2B852BEAAB3E0095121D /* SceneDelegate.swift */,
-				565C2B872BEAAB3E0095121D /* ViewController.swift */,
+				564330412BEBB43B00AFF8B1 /* Keychain Credentials */,
+				5643303E2BEBB1D400AFF8B1 /* Extensions */,
+				5643303B2BEBA06700AFF8B1 /* Constants */,
+				564330342BEB9DD400AFF8B1 /* Common Files */,
+				564330322BEB9A7900AFF8B1 /* LoginViewController.swift */,
+				565C2B872BEAAB3E0095121D /* MapboxViewController.swift */,
 				565C2B892BEAAB3E0095121D /* Main.storyboard */,
 				565C2B8C2BEAAB400095121D /* Assets.xcassets */,
 				565C2B8E2BEAAB400095121D /* LaunchScreen.storyboard */,
@@ -210,9 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				565C2B882BEAAB3E0095121D /* ViewController.swift in Sources */,
+				564330392BEB9E4D00AFF8B1 /* Alert Handler.swift in Sources */,
+				564330332BEB9A7900AFF8B1 /* LoginViewController.swift in Sources */,
+				565C2B882BEAAB3E0095121D /* MapboxViewController.swift in Sources */,
+				564330402BEBB20200AFF8B1 /* String+CLAdditions.swift in Sources */,
 				565C2B842BEAAB3E0095121D /* AppDelegate.swift in Sources */,
-				565C2B862BEAAB3E0095121D /* SceneDelegate.swift in Sources */,
+				5643303D2BEBA07A00AFF8B1 /* Constants.swift in Sources */,
+				564330362BEB9E1500AFF8B1 /* KeyboardDismiss.swift in Sources */,
+				564330432BEBB49000AFF8B1 /* KeychainItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarmatecTask/CarmatecTask.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8L8QX7RG6;
@@ -392,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarmatecTask/CarmatecTask.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L8L8QX7RG6;

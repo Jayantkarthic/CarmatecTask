@@ -11,6 +11,6 @@ target 'CarmatecTask' do
  	pod 'MapboxNavigation', '~> 2.14.0'
 pod ‘Firebase/Core‘
 pod ‘Firebase/Database‘
-
+pod 'GoogleSignIn'
 
 end
